@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: "Roboto" , sans-serif;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.card {
+    background: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #26395338;
+    width: 400px;
+}
+
+.mediaCard {
+    background: url("./assets/card.png") center/cover ;
+    height: 250px;
+    width: 100%;
+}
+
+.title {
+    cursor: context-menu;
+    color: #2b3d59;
+}
+
+.secondText {
+    cursor: context-menu;
+    color: #828fa1;
+}
+
+.bottomText {
+    cursor: context-menu;
+    color: #445b73;
+}
+
+.topCard {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.bottomCard {
+    padding: 20px;
+}
+
+.actions {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: purple;
+}
